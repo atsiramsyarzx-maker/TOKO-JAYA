@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Layanan | Amsyar Digital</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"
+        }
+    }
+    </script>
+</head>
+
+<body>
+
+<header class="navbar">
+    <a href="index.html" class="logo">TOKO JAYA<span></span></a>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="layanan.html" class="active">Service</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="tentang.html">About</a>
+    </nav>
+
+    <a href="kontak.html" class="contact-btn">Hubungi Kami ↗</a>
+</header>
+
+<main>
+
+    <section class="services-hero">
+        <div>
+            <p class="eyebrow">✦ WHAT WE CAN DO</p>
+            <h1>OUR <span>SERVICES.</span></h1>
+            <p class="description">
+                Solusi kreatif dan teknologi digital
+                untuk membantu mewujudkan ide kamu.
+            </p>
+        </div>
+
+        <div class="three-box">
+            <canvas id="scene3d"></canvas>
+        </div>
+    </section>
+
+    <section class="services-section">
+        <p class="eyebrow">OUR EXPERTISE</p>
+        <h2>Pilih Layananmu</h2>
+        <p class="section-description">
+            Kami menyediakan layanan digital sesuai kebutuhanmu.
+        </p>
+
+        <div class="service-grid">
+
+            <article class="service-card">
+                <div class="service-icon">⌘</div>
+                <h3>Website Development</h3>
+                <p>
+                    Website modern, responsif,
+                    dan sesuai identitas bisnismu.
+                </p>
+                <h4>Mulai Rp100.000</h4>
+                <button onclick="pesanLayanan('Website Development')">
+                    Pesan Layanan ↗
+                </button>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">✦</div>
+                <h3>Graphic Design</h3>
+                <p>
+                    Desain poster, banner,
+                    thumbnail, dan promosi.
+                </p>
+                <h4>Mulai Rp15.000</h4>
+                <button onclick="pesanLayanan('Graphic Design')">
+                    Pesan Layanan ↗
+                </button>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">▶</div>
+                <h3>Video Editing</h3>
+                <p>
+                    Editing video pendek untuk
+                    konten dan promosi digital.
+                </p>
+                <h4>Mulai Rp20.000</h4>
+                <button onclick="pesanLayanan('Video Editing')">
+                    Pesan Layanan ↗
+                </button>
+            </article>
+
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    © 2026 JAYA DIGITAL. ALL RIGHTS RESERVED.
+</footer>
+
+<script src="script.js"></script>
+<script type="module" src="three.js"></script>
+
+</body>
+</html>

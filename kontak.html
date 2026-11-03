@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak | TOKO JAYA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">TOKO<span>JAYA</span></div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="layanan.html">Service</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="tentang.html">About</a>
+      <a href="kontak.html" class="active">Kontak</a>
+    </div>
+  </nav>
+
+  <header class="contact-hero">
+    <p class="section-label">HUBUNGI KAMI</p>
+    <h1>Mari Mulai <span>Proyekmu.</span></h1>
+    <p>Punya ide menarik? Ceritakan kepada kami.</p>
+  </header>
+
+  <section class="contact-container">
+
+    <div class="contact-info">
+      <p class="section-label">INFORMASI</p>
+      <h2>Terhubung dengan TOKO JAYA</h2>
+      <p>
+        Kirimkan pesan tentang proyek yang ingin kamu buat.
+        Kami akan membantu membahas kebutuhan proyekmu.
+      </p>
+
+      <div class="contact-item">
+        <span>✉</span>
+        <div>
+          <h3>Email</h3>
+          <p>atsiramsyarzx@gmail.com</p>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <span>◉</span>
+        <div>
+          <h3>WhatsApp</h3>
+          <p>Hubungi melalui tombol formulir</p>
+        </div>
+      </div>
+    </div>
+
+    <form class="contact-form" id="contactForm">
+      <h2>Kirim Pesan</h2>
+
+      <label for="nama">Nama</label>
+      <input id="nama" type="text" placeholder="Nama kamu" required>
+
+      <label for="layanan">Layanan</label>
+      <select id="layanan" required>
+        <option value="">Pilih layanan</option>
+        <option>Website Development</option>
+        <option>Graphic Design</option>
+        <option>Video Editing</option>
+        <option>Lainnya</option>
+      </select>
+
+      <label for="pesan">Pesan</label>
+      <textarea id="pesan" rows="5"
+        placeholder="Ceritakan proyek yang kamu inginkan..."
+        required></textarea>
+
+      <button type="submit">Kirim melalui WhatsApp →</button>
+      <p class="form-note">
+        Pesan akan dibuka di WhatsApp sebelum dikirim.
+      </p>
+    </form>
+
+  </section>
+
+  <footer class="portfolio-footer">
+    <p>© 2026 JAYA DIGITAL. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
